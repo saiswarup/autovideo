@@ -1,0 +1,81 @@
+<html>
+<head>
+<title>
+Video
+</title>
+<style>
+body
+{
+ text-align:center;
+ width:100%;
+ margin:0 auto;
+ padding:0px;
+ font-family:helvetica;
+}
+#video_wrapper
+{
+ margin:0px;
+ padding:0px;
+}
+#video_wrapper video
+{
+ position: fixed;
+ top: 50%; left: 50%;
+ z-index: 1;
+ min-width: 100%;
+ min-height: 100%;
+ width: auto;
+ height: auto;
+ transform: translate(-50%, -50%);
+}
+#wrapper
+{
+ position:relative;
+ text-align:center;
+ margin:0 auto;
+ padding:0px;
+ width:995px;
+ z-index:2;
+}
+#wrapper1
+{
+ position:relative;
+ text-align:left;
+ margin:0 auto;
+ padding:0px;
+ width:115px;
+ z-index:2;
+}
+h1 
+{
+ margin-top:50px;	
+ color:white;
+ font-size:45px;
+ background-color: rgba(112, 112, 112, 0.74);
+}
+h4
+{
+ margin-top:100px;	
+ color:white;
+ font-size:20px;
+ background-color: rgba(112, 112, 112, 0.74);
+}
+</style>
+</head>
+<body>
+<div id="video_wrapper">
+
+<video autoplay muted loop>
+<source src="videoname" type="video/mp4">
+</video>
+
+<div id="wrapper">
+<h1>Company Name</h1>
+</div>
+
+<div id="wrapper1">
+<h4>Admin Tool</h4>
+</div>
+</div>
+</body>
+</html>
